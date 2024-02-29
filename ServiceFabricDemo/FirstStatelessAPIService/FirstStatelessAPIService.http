@@ -1,0 +1,6 @@
+@FirstStatelessAPIService_HostAddress = http://localhost:5186
+
+GET {{FirstStatelessAPIService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

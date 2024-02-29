@@ -5,7 +5,9 @@ VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "ServiceFabricDemo", "ServiceFabricDemo\ServiceFabricDemo.sfproj", "{BD01BEA4-22B2-4FEF-8D5C-03EACDBB0C9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstStatelessService", "FirstStatelessService\FirstStatelessService.csproj", "{808389CE-3CD4-4976-8BC7-F82A433DD5CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstStatelessService", "FirstStatelessService\FirstStatelessService.csproj", "{808389CE-3CD4-4976-8BC7-F82A433DD5CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstStatelessAPIService", "FirstStatelessAPIService\FirstStatelessAPIService.csproj", "{042F2A76-AF39-43FE-99B6-6ED8D3129720}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,14 @@ Global
 		{808389CE-3CD4-4976-8BC7-F82A433DD5CE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{808389CE-3CD4-4976-8BC7-F82A433DD5CE}.Release|x64.ActiveCfg = Release|Any CPU
 		{808389CE-3CD4-4976-8BC7-F82A433DD5CE}.Release|x64.Build.0 = Release|Any CPU
+		{042F2A76-AF39-43FE-99B6-6ED8D3129720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{042F2A76-AF39-43FE-99B6-6ED8D3129720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{042F2A76-AF39-43FE-99B6-6ED8D3129720}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{042F2A76-AF39-43FE-99B6-6ED8D3129720}.Debug|x64.Build.0 = Debug|Any CPU
+		{042F2A76-AF39-43FE-99B6-6ED8D3129720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{042F2A76-AF39-43FE-99B6-6ED8D3129720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{042F2A76-AF39-43FE-99B6-6ED8D3129720}.Release|x64.ActiveCfg = Release|Any CPU
+		{042F2A76-AF39-43FE-99B6-6ED8D3129720}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
